@@ -1,0 +1,3 @@
+The autentication tier is deatached from the other tiers.
+The interface tier requires only a little bit of coding compared to the authentication tier.
+The login should allow the user to access the application with a well defined role (user, admin etc) relying solely on the access parameter and not on others.

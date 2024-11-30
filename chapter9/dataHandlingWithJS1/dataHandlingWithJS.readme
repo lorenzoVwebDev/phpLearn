@@ -1,0 +1,6 @@
+We need to modify the interface to allow users to insert new dogs and modify or delete the older ones. (so we should adda list box populated with the dog's information)
+We are going to show this information in the dog_interface (interface tier) by retriving it from the dog_data (data tier) via the dog methods (business rules tier). Similar coding will be added to lab.php to produce the dogs list box previously mentioned.
+lab.php also needs access to all the information from a particular dog that has been selected.
+We are going to use AJAX paired with lab.php to retrive and show all the needed information about the dogs.
+We must make sure that the user indicates what type of operation is requested before we populate the form objects (text boxes, list box, and radio button).
+We are going to modify the code to create the form objects only after the user selects a dog from a dogs list box.

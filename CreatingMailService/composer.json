@@ -1,0 +1,7 @@
+{
+    "name": "lorenzo/creating-a-mail-service",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

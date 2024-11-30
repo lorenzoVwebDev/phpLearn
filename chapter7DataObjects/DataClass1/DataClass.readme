@@ -1,0 +1,9 @@
+It and Bt should not store application information. Neither should they know how the information is stored (text file; xml or database) or the location. 
+THe information should be passed from the business rules tier to the data tier. Data tier reacts to the brt ruequests.
+The parameters and items returned from the data tier should remain unchanged.
+SQL strings must not be built in the BRT but only in the DT.
+Data class provede functionality for manipulatinfg information (read, insert, update delete).
+Data storage should be performant. 
+Store data into the storage location only after all changes have been made (use the memory of the server to store the information step by step and then store the whole change in the actual storage location) -> this will reduce the server calls down to two ( initil retrieval of the information/saving the updated information).
+
+If the data is modified frequently, locking meachanisms should be applied to avoid conflicts. These techniques are handled within the data structure.

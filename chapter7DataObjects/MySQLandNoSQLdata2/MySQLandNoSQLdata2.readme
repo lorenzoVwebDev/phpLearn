@@ -1,0 +1,5 @@
+Backup and recovery
+A well developerd application must filter and clean data before it is saved, it should als handle the possibility that bad data may corrupt the informartion. Moreover, unforeseen problems may occur. So an application must have the ability to recover without loosing data. 
+This should be done with a good BACKUP. 
+
+in backup&recovery4.php we have created a log format that provides all of the inforamtion needed for the recovery process. Now, if the current version of the dog_data file is corrupted, we can use the change log file to restore a previous good version of it and then apply changes.
